@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.flex-container-1{
+width: 400px;
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+border: 1px dotted black;
+}
+
+.flex-item-1{
+    background-color: red;
+    border: 1px solid green;
+}
+
+
+/* 2nd */
+
+
+.flex-container-2{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0 auto;
+    border: 2px solid black;
+    }
+
+
+
+.flex-item-2{
+    background-color: rgb(255, 11, 11);
+    border: 1px solid #0000ff;
+}
+
+
+/* 3rd */
+
+.flex-container-3{
+    width: 400px;
+    height: 300px;
+    display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 2px solid black;
+    }
+
+
+
+.flex-item-3{
+    background-color: rgb(255, 11, 11);
+    border: 1px solid #0000ff;
+}
+
+/* 4 item */
+
+.flex-container-4{
+    width: 600px;
+    height: 500px;
+    display: flex;
+  flex-direction: row;
+ align-items: flex-start;
+    margin: 0 auto;
+    border: 2px dotted black;
+   
+    }
+
+
+
+.flex-item-4{
+    background-color: rgb(255, 11, 11);
+    border: 1px solid #00ff00;
+    flex-grow: 1;
+}
+
+
+/* 5-item */
+.flex-container-5{
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+  align-items: flex-start;
+  border: 2px dashed black;
+
+}
+.flex-item-5:nth-child(3) {
+    
+    align-self: flex-end;
+    
+}
+.flex-item-5:nth-child(4) {
+    
+    align-self: center;
+    
+}
+
+.flex-item-5{
+   
+        background-color: rgb(255, 11, 11);
+        border: 1px solid #00ff00;
+        flex-grow: 1;
+}
+
+
+/* 6-item */
+
+.flex-container-6{
+    width: 600px;
+    height: 500px;
+    display: flex;
+  flex-direction: row-reverse;
+justify-content: end;
+    margin: 0 auto;
+    border: 2px dotted black;
+   
+    }
+
+
+
+.flex-item-6{
+    background-color: rgb(255, 11, 11);
+    border: 1px solid #fcfcfc;
+    
+}
